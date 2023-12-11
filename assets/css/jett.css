@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(59, 59, 59);
+    background-image: url("../images/fundo_agentes.png");
+    background-size: cover; 
+    background-position: center; 
+}
+
+.topo {
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.tudo {
+    border: 2px solid rgba(255, 0, 0, 0);
+}
+
+.personagem {
+    width: 80%;
+    min-height: 1180px;
+    background-color: rgba(126, 119, 119, 0.534);
+    border: 2px solid rgb(255, 0, 0);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+
+.habilidades {
+    border: 3px solid rgba(255, 255, 255, 0);
+    width: auto;
+    min-height: 175px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.skillimagem {
+    background-color: #810303;
+    width: 14%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.conteudo {
+    background-color: purple;
+    /* rgba(0, 0, 0, 0.555); */
+    width: 86%;
+    height: 175px;
+    float: left;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.separador {
+    background-color: #470404;
+    color: white;
+    width: auto;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.logowiki {
+    border: 1px solid red;
+    height: 225px;
+    width: 225px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.valorantwiki {
+    min-height: 225px;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2em;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1.5px #ff0000;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cabecalho {
+    min-height: 200px;
+    background-color: rgba(252, 252, 252, 0);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fotomural {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.mural {
+    min-height: 150px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.336);
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.imagemconteudo {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+
+}
+
+#alterado {
+    height: 50px;
+}
+
+.textoskill {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+.textoprincipal {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#images {
+    width: 50%;
+}
